@@ -20,7 +20,7 @@ function calculateHanoi(disksNumber, turnsSpeed) {
   const seconds = Math.floor(turns / perSecond)
   return { turns, seconds }
 }
-console.log(calculateHanoi(9, 4308)); // { turns: 511, seconds: 427 }
+
 module.exports = {
   calculateHanoi
 };
