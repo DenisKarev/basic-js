@@ -16,7 +16,6 @@ function deleteDigit(n) {
   const length = `${n}`.length;
   for (let i = 0; i < length; i++) {
     let newOne = +`${n}`.split('').filter((_, idx) => idx != i).join('')
-    console.log(newOne);
     if (max < newOne) {
       max = newOne;
     }
